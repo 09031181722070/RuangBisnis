@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/category_colors"
+    tools:context=".gallery">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:text="Rencana Usaha"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+        android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:text="Rencana Usaha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <EditText
+            android:id="@+id/rencana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" "
+            android:inputType="textCapWords"/>
+
+        <TextView
+            android:text="Nama Usaha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            android:text="Jenis Usaha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/jenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            android:text="Nama Penyusun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/nama_penyusun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            android:text="Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            android:text="Kebutuhan Modal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/kebutuhan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textCapWords"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim"
+            android:onClick="submitMurobbi"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

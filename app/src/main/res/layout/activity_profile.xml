@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/category_colors"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:typeface="serif"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:typeface="serif"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textFontWeight="@android:integer/config_shortAnimTime"
+            android:text="MENGGALI IDE BISNIS DAN PRINSIP DASAR BISNIS" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="16sp"
+            android:src="@drawable/mang" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:textColor="#FFFFFF"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:text="MENGINDENTIFIKASI IDE BISNIS" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:textColor="#FFFFFF"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:typeface="serif"
+            android:textSize="13dp"
+            android:textColor="#FFFFFF"
+            android:text="Ada Banyak realita disekitar kita. Tantangan awal dalam melangkah menjadi wirausaha digital adalah mengindentifikasi peluang ataupun ide bisnis dari banyaknya realita yang ada.  Peluang dapat muncul dari hobi yang dimiliki seseorang. ia juga dapat muncul dari hasil pengamatan terhadap tren yang berlangsunng di masyarakat atau dapat pula  hasil kejelian dalam menangkap permasalahannya  yang ada  dan mampu menemukan solusinya "
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back" />
+    </LinearLayout>
+
+</ScrollView>

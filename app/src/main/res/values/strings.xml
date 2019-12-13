@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Application</string>
+
+    <string name="colors_name">Colors</string>
+
+    <string name="Amal_yaumi_for">Find your Business</string>
+    <string name="tanggal"></string>
+    <string name="mengerjakan_sholat_magrib">Rencana Usaha</string>
+    <string name="mengerjakan_sholat_isya">Nama Usaha</string>
+    <string name="mengerjakan_sholat_subuh">Jenis Usaha</string>
+    <string name="mengerjakan_sholat_dzuhur">Nama Penyusun</string>
+    <string name="mengerjakan_sholat_ashar">Alamat Rumah</string>
+    <string name="mengerjakan_sholat_dhuha">Kebutuhan Modal</string>
+    <string name="mengerjakan_sholat_rawatib">Mengerjakan Sholat Sunnah Rawatib Sebanyak</string>
+    <string name="membaca_alquran">Membaca Al-Qur\'an Sebanyak</string>
+    <string name="terimah_kasih">Syukron Katsiron,,,,, Jazakullah</string>
+    <!-- Teks yang ditampilkan di daftar jika tidak ada gempa [CHAR LIMIT=NONE] -->
+    <string name="no_alquran">No alquran found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+</resources>
